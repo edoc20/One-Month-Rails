@@ -76,4 +76,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Required for Heroku - Link to direct users back to appropriate page of site
+  # Note to set this to actual host
+  config.action_mailer.default_url_options = { host: 'https://omr-pinteresting-application.herokuapp.com/' }
 end
