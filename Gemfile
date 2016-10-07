@@ -10,6 +10,9 @@ gem 'devise', '~> 4.2.0'
 # Use Paperclip for images
 gem 'paperclip', '~> 4.2.0'
 
+#Use Amazon to store images so they stay visible on Heroku
+gem 'aws-sdk'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
