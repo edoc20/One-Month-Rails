@@ -8,7 +8,7 @@ gem 'rails', '4.2.5.1'
 gem 'devise', '~> 4.2.0'
 
 # Use Paperclip for images
-gem 'paperclip', '~> 4.2.0'
+gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 
 #Use Amazon to store images so they stay visible on Heroku
 gem 'aws-sdk'
