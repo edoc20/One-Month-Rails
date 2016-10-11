@@ -15,6 +15,10 @@ gem 'aws-sdk'
 
 gem 'masonry-rails'
 
+gem 'will_paginate'
+
+gem 'will_paginate-bootstrap'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
