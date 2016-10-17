@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161007162912) do
+ActiveRecord::Schema.define(version: 20161017170721) do
 
   create_table "pins", force: :cascade do |t|
     t.string   "description"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
     t.integer  "user_id"
     t.string   "image_file_name"
     t.string   "image_content_type"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20161007162912) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
